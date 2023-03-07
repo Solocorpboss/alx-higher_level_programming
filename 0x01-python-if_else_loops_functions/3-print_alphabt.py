@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for letter in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is not 'e':
-        print("{}".format(chr(letter)), end="")
+for alphabet in range(26):
+    if alphabet != 4 and alphabet != 16:
+        print("{:s}".format(chr(alphabet + ord("a"))), end="")
