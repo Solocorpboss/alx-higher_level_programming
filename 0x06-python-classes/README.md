@@ -6,7 +6,7 @@ In this project, I began practicing object-oriented programming using classes an
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files. Provided by ALX School.
 
 ## Tasks :page_with_curl:
 
