@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import imp
+from my_list import MyList
 
 my_list_module = imp.load_source("my_list", "./1-my_list.py")
 MyList = my_list_module.MyList
