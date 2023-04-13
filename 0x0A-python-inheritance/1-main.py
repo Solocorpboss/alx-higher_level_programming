@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-import importlib.util
+import imp
 
-spec = importlib.util.spec_from_file_location("my_list", "./1-my_list.py")
-my_list_module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(my_list_module)
-
+my_list_module = imp.load_source("my_list", "./1-my_list.py")
 MyList = my_list_module.MyList
 
 my_list = MyList([1, 2, 3, 4, 5])
