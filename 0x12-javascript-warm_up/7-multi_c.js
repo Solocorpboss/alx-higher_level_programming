@@ -1,4 +1,3 @@
-
 #!/usr/bin/node
 
 let num = Number(process.argv[2]);
@@ -10,4 +9,3 @@ if (isNaN(num)) {
     --num;
   }
 }
-

@@ -6,4 +6,3 @@ function add (a, b) {
 
 const sum = add(Number(process.argv[2]), Number(process.argv[3]));
 console.log(sum);
-
